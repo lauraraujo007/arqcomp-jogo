@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jogos de Arquitetura Computacional</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Arquitetura Computacional: dois jogos</h1>
+    <p>Descubra os termos da aula pelas pistas.</p>
+  </header>
+
+  <nav class="abas">
+    <button id="aba-anagrama" class="ativa">Palavra embaralhada</button>
+    <button id="aba-ligar">Ligar pistas e termos</button>
+  </nav>
+
+  <main>
+    <section id="jogo-anagrama">
+      <p class="ajuda">Leia a pista, arrume as letras e digite a palavra certa.</p>
+      <div class="barra">
+        <button id="a-conferir">Conferir</button>
+        <button id="a-reiniciar" class="sec">Reiniciar</button>
+        <strong id="a-placar">0 de 12 palavras</strong>
+      </div>
+      <div id="a-lista"></div>
+    </section>
+
+    <section id="jogo-ligar" hidden>
+      <p class="ajuda">Clique em um termo e depois na pista dele. Clique de novo para desfazer.</p>
+      <div class="barra">
+        <button id="l-conferir">Conferir</button>
+        <button id="l-reiniciar" class="sec">Reiniciar</button>
+        <strong id="l-placar">0 de 12 pares</strong>
+      </div>
+      <div class="colunas">
+        <div id="l-termos"></div>
+        <div id="l-pistas"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
