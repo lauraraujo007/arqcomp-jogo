@@ -2,7 +2,7 @@
 
 Dois jogos em uma página para treinar os termos da aula de Tópicos de Arquitetura Computacional.
 
-**Site publicado:** https://SEU-USUARIO.github.io/arqcomp-cruzadinha/
+**Site publicado:** https://lauraraujo007.github.io/arqcomp-cruzadinha/
 
 ## Como jogar
 
